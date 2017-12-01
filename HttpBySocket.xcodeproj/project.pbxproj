@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		97806E4C9D01A9F8F175A664 /* libPods-HttpBySocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6E04F0869B33DC614C1CF2 /* libPods-HttpBySocket.a */; };
+		F8898BD01F04DEA100FF5554 /* AFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8898BCF1F04DEA100FF5554 /* AFNViewController.m */; };
+		F8898BD61F0507D900FF5554 /* EcryptHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F8898BD51F0507D900FF5554 /* EcryptHelper.m */; };
+		F8898BD81F05083000FF5554 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8898BD71F05083000FF5554 /* libz.tbd */; };
+		F8898BDB1F0508A100FF5554 /* HiidoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F8898BDA1F0508A100FF5554 /* HiidoHelper.m */; };
 		F8FE32A11EF23EFC00A71508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE32A01EF23EFC00A71508 /* main.m */; };
 		F8FE32A41EF23EFC00A71508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE32A31EF23EFC00A71508 /* AppDelegate.m */; };
 		F8FE32A71EF23EFC00A71508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FE32A61EF23EFC00A71508 /* ViewController.m */; };
@@ -22,6 +26,13 @@
 		03075547A7B4DBFDD001C965 /* Pods-HttpBySocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpBySocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpBySocket/Pods-HttpBySocket.release.xcconfig"; sourceTree = "<group>"; };
 		8A39CB58F20F18CE06A45FB6 /* Pods-HttpBySocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpBySocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpBySocket/Pods-HttpBySocket.debug.xcconfig"; sourceTree = "<group>"; };
 		DD6E04F0869B33DC614C1CF2 /* libPods-HttpBySocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HttpBySocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8898BCE1F04DEA100FF5554 /* AFNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNViewController.h; sourceTree = "<group>"; };
+		F8898BCF1F04DEA100FF5554 /* AFNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNViewController.m; sourceTree = "<group>"; };
+		F8898BD41F0507D900FF5554 /* EcryptHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcryptHelper.h; sourceTree = "<group>"; };
+		F8898BD51F0507D900FF5554 /* EcryptHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcryptHelper.m; sourceTree = "<group>"; };
+		F8898BD71F05083000FF5554 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F8898BD91F0508A100FF5554 /* HiidoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiidoHelper.h; sourceTree = "<group>"; };
+		F8898BDA1F0508A100FF5554 /* HiidoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiidoHelper.m; sourceTree = "<group>"; };
 		F8FE329C1EF23EFC00A71508 /* HttpBySocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpBySocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FE32A01EF23EFC00A71508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8FE32A21EF23EFC00A71508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8898BD81F05083000FF5554 /* libz.tbd in Frameworks */,
 				97806E4C9D01A9F8F175A664 /* libPods-HttpBySocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +74,7 @@
 		EA5F3E3F6206F124DDC59993 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8898BD71F05083000FF5554 /* libz.tbd */,
 				DD6E04F0869B33DC614C1CF2 /* libPods-HttpBySocket.a */,
 			);
 			name = Frameworks;
@@ -96,6 +109,12 @@
 				F8FE32A31EF23EFC00A71508 /* AppDelegate.m */,
 				F8FE32A51EF23EFC00A71508 /* ViewController.h */,
 				F8FE32A61EF23EFC00A71508 /* ViewController.m */,
+				F8898BCE1F04DEA100FF5554 /* AFNViewController.h */,
+				F8898BCF1F04DEA100FF5554 /* AFNViewController.m */,
+				F8898BD41F0507D900FF5554 /* EcryptHelper.h */,
+				F8898BD51F0507D900FF5554 /* EcryptHelper.m */,
+				F8898BD91F0508A100FF5554 /* HiidoHelper.h */,
+				F8898BDA1F0508A100FF5554 /* HiidoHelper.m */,
 				F8FE32A81EF23EFC00A71508 /* Main.storyboard */,
 				F8FE32AB1EF23EFC00A71508 /* Assets.xcassets */,
 				F8FE32AD1EF23EFC00A71508 /* LaunchScreen.storyboard */,
@@ -236,10 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8898BD61F0507D900FF5554 /* EcryptHelper.m in Sources */,
 				F8FE32A71EF23EFC00A71508 /* ViewController.m in Sources */,
 				F8FE32BB1EF2414C00A71508 /* DCNetCache.m in Sources */,
 				F8FE32A41EF23EFC00A71508 /* AppDelegate.m in Sources */,
 				F8FE32A11EF23EFC00A71508 /* main.m in Sources */,
+				F8898BDB1F0508A100FF5554 /* HiidoHelper.m in Sources */,
+				F8898BD01F04DEA100FF5554 /* AFNViewController.m in Sources */,
 				F8FE32B81EF240A200A71508 /* DCSocketManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

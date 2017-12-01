@@ -7,4 +7,6 @@ target 'HttpBySocket'  do
 
 pod 'CocoaAsyncSocket'
 
+pod 'AFNetworking'
+
 end
